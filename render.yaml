@@ -27,4 +27,4 @@ services:
       - key: CORS_ALLOW_ALL_ORIGINS
         value: "True"
       - key: PYTHON_VERSION
-        value: "3.11.2"
+        value: "3.11.6"
