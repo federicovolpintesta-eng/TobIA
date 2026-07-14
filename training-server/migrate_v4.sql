@@ -1,0 +1,3 @@
+ALTER TABLE empleados ADD COLUMN IF NOT EXISTS cv_summary TEXT;
+ALTER TABLE empleados ADD COLUMN IF NOT EXISTS interview_questions JSONB;
+ALTER TABLE empleados ADD COLUMN IF NOT EXISTS training_plan TEXT;
