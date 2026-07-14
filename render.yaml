@@ -2,11 +2,13 @@ databases:
   - name: hotel_b2b_db
     databaseName: hotel_b2b
     user: admin
+    plan: free
 
 services:
   - type: web
     name: calidad-backend
     env: python
+    plan: free
     buildCommand: "cd backend && ./build.sh"
     startCommand: "cd backend && gunicorn config.wsgi:application"
     envVars:
