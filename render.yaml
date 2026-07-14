@@ -9,7 +9,7 @@ services:
     name: calidad-backend
     env: python
     plan: free
-    buildCommand: "cd backend && ./build.sh"
+    buildCommand: "cd backend && pip install -r requirements.txt && python manage.py collectstatic --no-input && python manage.py migrate"
     startCommand: "cd backend && gunicorn config.wsgi:application"
     envVars:
       - key: DATABASE_URL
