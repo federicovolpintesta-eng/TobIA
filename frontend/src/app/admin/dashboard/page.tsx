@@ -218,7 +218,7 @@ export default function DashboardPage() {
           className="flex flex-col md:flex-row justify-between items-start md:items-center gap-4"
         >
           <div>
-            <h2 className="text-3xl font-bold text-zinc-900 dark:text-zinc-100 tracking-tight">Centro de Control</h2>
+            <h2 className="text-3xl font-bold text-zinc-900 dark:text-zinc-100 tracking-tight">Centro de Control (Live 🚀)</h2>
             <p className="text-zinc-500 dark:text-zinc-400 mt-1">Resumen general de operaciones y satisfacción.</p>
           </div>
           <div className="flex items-center gap-4">
