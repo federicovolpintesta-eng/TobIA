@@ -44,6 +44,7 @@ INSTALLED_APPS = [
     'rest_framework.authtoken',
     'surveys',
     'tickets',
+    'hr',
     'reputation',
     'concierge',
     'metrics',

@@ -26,4 +26,5 @@ urlpatterns = [
     path('api/v1/', include('reputation.urls')),
     path('api/v1/', include('concierge.urls')),
     path('api/v1/', include('metrics.urls')),
+    path('api/hr/', include('hr.urls')),
 ]
